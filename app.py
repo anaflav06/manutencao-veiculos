@@ -492,7 +492,7 @@ if menu=="📊 Dashboard":
 # =========================================================
 elif menu=="➕ Nova manutenção":
     st.markdown('<div class="gds-title">Nova manutenção</div>',unsafe_allow_html=True)
-    st.markdown('<div class="gds-sub">Todos os campos principais são livres para digitação. O app apenas sugere dados já conhecidos.</div>',unsafe_allow_html=True)
+    st.markdown('<div class="gds-sub">Selecione a placa da frota GDS e informe os dados da manutenção.</div>',unsafe_allow_html=True)
 
     if "novo_cnpj" not in st.session_state: st.session_state.novo_cnpj=""
     if "novo_fornecedor" not in st.session_state: st.session_state.novo_fornecedor=""

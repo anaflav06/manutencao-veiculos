@@ -65,6 +65,8 @@ MESES = {
     7:"Julho", 8:"Agosto", 9:"Setembro", 10:"Outubro", 11:"Novembro", 12:"Dezembro"
 }
 
+PLACAS_GDS = ['CFI2B71', 'COT3D61', 'CUT3G00', 'DLU8J74', 'EFT8H38', 'EPP2I45', 'EQJ5C41', 'EQT3D56', 'ETW0J23', 'EUY6558', 'FBL5951', 'FCO2E02', 'FNO8H33', 'FZZ8B91', 'GDS0105', 'GDS0E23', 'GDS0H41', 'GDS2013', 'GHT9B78']
+
 def dinheiro(v):
     try:
         n = float(v or 0)
@@ -441,7 +443,7 @@ if menu=="📊 Dashboard":
         with col: st.markdown(f'<div class="metric-card"><div class="metric-label">{lab}</div><div class="metric-value">{val}</div></div>',unsafe_allow_html=True)
 
     st.write("")
-    todas_placas=sorted([p for p in df.placa.dropna().astype(str).unique() if p and p not in ("NC","N/C")])
+    todas_placas=PLACAS_GDS.copy()
     placas_com=set(atual.placa.astype(str).tolist())
     sem=[p for p in todas_placas if p not in placas_com]
     gasto_placa=atual.groupby("placa")["valor"].sum().sort_values(ascending=False) if not atual.empty else pd.Series(dtype=float)
@@ -478,24 +480,15 @@ elif menu=="➕ Nova manutenção":
 
     c1,c2=st.columns(2)
     with c1:
-        # Campo pesquisável: ao começar a digitar, filtra as placas existentes.
-        # Também aceita uma placa nova diretamente no mesmo campo.
-        placas_existentes = sorted([
-            p for p in df["placa"].dropna().astype(str).unique().tolist()
-            if p and p not in ("NC", "N/C", "NAN")
-        ])
-
         placa = st.selectbox(
             "Placa *",
-            options=placas_existentes,
+            options=PLACAS_GDS,
             index=None,
             placeholder="Digite ou selecione a placa...",
-            accept_new_options=True,
             key="placa_nova_manutencao"
         )
-
         placa = normaliza_placa(placa) if placa else ""
-        st.caption("Comece a digitar para localizar uma placa já cadastrada. Se não existir, digite a nova placa e pressione Enter.")
+        st.caption("Comece a digitar para localizar a placa.")
 
         dt=st.date_input("Data *",date.today())
         nf=st.text_input("Nº recibo / NF")
@@ -558,7 +551,14 @@ elif menu=="✏️ Editar lançamento":
     with st.form("editar"):
         a,b=st.columns(2)
         with a:
-            placa=st.text_input("Placa",value=str(r.placa))
+            placa_atual = str(r.placa or "")
+            placa=st.selectbox(
+                "Placa",
+                options=PLACAS_GDS,
+                index=PLACAS_GDS.index(placa_atual) if placa_atual in PLACAS_GDS else None,
+                placeholder="Digite ou selecione a placa...",
+                key=f"placa_edicao_{rid}"
+            )
             dt=st.date_input("Data",value=r.data_dt.date())
             nf=st.text_input("Nº recibo / NF",value=str(r.nf_recibo or ""))
             cnpj=st.text_input("CNPJ",value=str(r.cnpj_fornecedor or ""))
@@ -621,9 +621,16 @@ elif menu=="🔎 Busca rápida":
 elif menu=="🚛 Histórico por placa":
     st.markdown('<div class="gds-title">Histórico por placa</div>',unsafe_allow_html=True)
     st.markdown('<div class="gds-sub">Histórico completo de cada veículo.</div>',unsafe_allow_html=True)
-    placas=sorted(df.placa.dropna().astype(str).unique().tolist())
-    if not placas: st.info("Sem placas."); st.stop()
-    placa=st.selectbox("Placa",placas)
+    placa=st.selectbox(
+        "Placa",
+        options=PLACAS_GDS,
+        index=None,
+        placeholder="Digite ou selecione a placa...",
+        key="placa_historico"
+    )
+    if not placa:
+        st.info("Selecione uma placa para consultar o histórico.")
+        st.stop()
     h=df[df.placa==placa].copy()
     a,b,c=st.columns(3)
     for col,(lab,val) in zip([a,b,c],[("Total gasto",dinheiro(h.valor.sum())),("Registros",len(h)),("Última manutenção",h.data_dt.max().strftime("%d/%m/%Y"))]):
@@ -725,7 +732,7 @@ elif menu=="💾 Backup / Restaurar":
                     for _,rr in imp.iterrows():
                         placa=normaliza_placa(rr.get("placa"))
                         dt=pd.to_datetime(rr.get("data"),errors="coerce")
-                        if not placa or pd.isna(dt): continue
+                        if not placa or placa not in PLACAS_GDS or pd.isna(dt): continue
                         serv=str(rr.get("produto_servico","") or "")
                         val=parse_valor(rr.get("valor"))
                         nf=str(rr.get("nf_recibo","") or "")

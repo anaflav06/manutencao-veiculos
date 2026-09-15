@@ -478,31 +478,25 @@ elif menu=="➕ Nova manutenção":
 
     c1,c2=st.columns(2)
     with c1:
-        # Usa as placas do próprio histórico como opções.
-        # Não existe cadastro separado obrigatório: uma nova placa pode ser digitada aqui.
+        # Campo pesquisável: ao começar a digitar, filtra as placas existentes.
+        # Também aceita uma placa nova diretamente no mesmo campo.
         placas_existentes = sorted([
             p for p in df["placa"].dropna().astype(str).unique().tolist()
             if p and p not in ("NC", "N/C", "NAN")
         ])
 
-        opcoes_placa = placas_existentes + ["➕ CADASTRAR OUTRA PLACA"]
-
-        opcao_placa = st.selectbox(
+        placa = st.selectbox(
             "Placa *",
-            opcoes_placa,
-            index=0,
-            placeholder="Selecione uma placa"
+            options=placas_existentes,
+            index=None,
+            placeholder="Digite ou selecione a placa...",
+            accept_new_options=True,
+            key="placa_nova_manutencao"
         )
 
-        if opcao_placa == "➕ CADASTRAR OUTRA PLACA":
-            placa = st.text_input(
-                "Nova placa *",
-                placeholder="Ex.: ABC1D23"
-            ).upper()
-        else:
-            placa = opcao_placa
+        placa = normaliza_placa(placa) if placa else ""
+        st.caption("Comece a digitar para localizar uma placa já cadastrada. Se não existir, digite a nova placa e pressione Enter.")
 
-        st.caption("Selecione uma placa existente ou escolha **Cadastrar outra placa** para incluir uma nova.")
         dt=st.date_input("Data *",date.today())
         nf=st.text_input("Nº recibo / NF")
         cnpj=st.text_input("CNPJ do fornecedor",key="novo_cnpj",on_change=preenche_fornecedor)

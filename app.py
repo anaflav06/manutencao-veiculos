@@ -78,6 +78,28 @@ def dinheiro(v):
 def normaliza_placa(v):
     return re.sub(r"[^A-Za-z0-9]", "", str(v or "")).upper().strip()
 
+def campo_placa(label, key, valor_atual=None, obrigatorio=False):
+    """
+    Campo padrão de placa do app.
+    Mostra somente as placas oficiais GDS e permite pesquisar digitando
+    dentro do seletor aberto. Não permite criar novas placas.
+    """
+    opcoes = PLACAS_GDS.copy()
+    idx = None
+    if valor_atual:
+        atual = normaliza_placa(valor_atual)
+        if atual in opcoes:
+            idx = opcoes.index(atual)
+
+    return st.selectbox(
+        label + (" *" if obrigatorio else ""),
+        options=opcoes,
+        index=idx,
+        placeholder="Selecione ou digite para pesquisar...",
+        key=key,
+        help="Clique no campo e comece a digitar a placa para filtrar a lista."
+    )
+
 def normaliza_cnpj(v):
     t = str(v or "").strip()
     if not t or t.lower()=="nan": return ""
@@ -480,15 +502,13 @@ elif menu=="➕ Nova manutenção":
 
     c1,c2=st.columns(2)
     with c1:
-        placa = st.selectbox(
-            "Placa *",
-            options=PLACAS_GDS,
-            index=None,
-            placeholder="Digite ou selecione a placa...",
-            key="placa_nova_manutencao"
+        placa = campo_placa(
+            "Placa",
+            key="placa_nova_manutencao",
+            obrigatorio=True
         )
         placa = normaliza_placa(placa) if placa else ""
-        st.caption("Comece a digitar para localizar a placa.")
+        st.caption("Clique no campo: todas as placas aparecem. Comece a digitar para filtrar.")
 
         dt=st.date_input("Data *",date.today())
         nf=st.text_input("Nº recibo / NF")
@@ -552,12 +572,10 @@ elif menu=="✏️ Editar lançamento":
         a,b=st.columns(2)
         with a:
             placa_atual = str(r.placa or "")
-            placa=st.selectbox(
+            placa = campo_placa(
                 "Placa",
-                options=PLACAS_GDS,
-                index=PLACAS_GDS.index(placa_atual) if placa_atual in PLACAS_GDS else None,
-                placeholder="Digite ou selecione a placa...",
-                key=f"placa_edicao_{rid}"
+                key=f"placa_edicao_{rid}",
+                valor_atual=placa_atual
             )
             dt=st.date_input("Data",value=r.data_dt.date())
             nf=st.text_input("Nº recibo / NF",value=str(r.nf_recibo or ""))
@@ -621,11 +639,8 @@ elif menu=="🔎 Busca rápida":
 elif menu=="🚛 Histórico por placa":
     st.markdown('<div class="gds-title">Histórico por placa</div>',unsafe_allow_html=True)
     st.markdown('<div class="gds-sub">Histórico completo de cada veículo.</div>',unsafe_allow_html=True)
-    placa=st.selectbox(
+    placa = campo_placa(
         "Placa",
-        options=PLACAS_GDS,
-        index=None,
-        placeholder="Digite ou selecione a placa...",
         key="placa_historico"
     )
     if not placa:

@@ -80,12 +80,14 @@ def normaliza_placa(v):
 
 def campo_placa(label, key, valor_atual=None, obrigatorio=False):
     """
-    Campo padrão de placa do app.
-    Mostra somente as placas oficiais GDS e permite pesquisar digitando
-    dentro do seletor aberto. Não permite criar novas placas.
+    Seletor único de placas oficiais GDS.
+    Não aceita placa nova. Ao abrir, exibe todas as placas disponíveis.
     """
     opcoes = PLACAS_GDS.copy()
-    idx = None
+
+    # Sempre existe uma opção visível.
+    # Em edição, mantém a placa atual quando ela pertence à frota oficial.
+    idx = 0
     if valor_atual:
         atual = normaliza_placa(valor_atual)
         if atual in opcoes:
@@ -95,9 +97,8 @@ def campo_placa(label, key, valor_atual=None, obrigatorio=False):
         label + (" *" if obrigatorio else ""),
         options=opcoes,
         index=idx,
-        placeholder="Selecione ou digite para pesquisar...",
         key=key,
-        help="Clique no campo e comece a digitar a placa para filtrar a lista."
+        help="Clique na seta para visualizar e selecionar uma das placas da frota GDS."
     )
 
 def normaliza_cnpj(v):
@@ -507,8 +508,8 @@ elif menu=="➕ Nova manutenção":
             key="placa_nova_manutencao",
             obrigatorio=True
         )
-        placa = normaliza_placa(placa) if placa else ""
-        st.caption("Clique no campo: todas as placas aparecem. Comece a digitar para filtrar.")
+        placa = normaliza_placa(placa)
+        st.caption("Selecione uma das placas cadastradas da frota GDS.")
 
         dt=st.date_input("Data *",date.today())
         nf=st.text_input("Nº recibo / NF")

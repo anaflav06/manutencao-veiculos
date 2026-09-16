@@ -493,7 +493,7 @@ if menu=="📊 Dashboard":
 # =========================================================
 elif menu=="➕ Nova manutenção":
     st.markdown('<div class="gds-title">Nova manutenção</div>',unsafe_allow_html=True)
-    st.markdown('<div class="gds-sub">Selecione a placa da frota GDS e informe os dados da manutenção.</div>',unsafe_allow_html=True)
+    st.markdown('<div class="gds-sub">Selecione a placa da frota GDS e informe os dados da manutenção. • V9</div>',unsafe_allow_html=True)
 
     if "novo_cnpj" not in st.session_state: st.session_state.novo_cnpj=""
     if "novo_fornecedor" not in st.session_state: st.session_state.novo_fornecedor=""
@@ -503,13 +503,35 @@ elif menu=="➕ Nova manutenção":
 
     c1,c2=st.columns(2)
     with c1:
-        placa = campo_placa(
-            "Placa",
-            key="placa_nova_manutencao",
-            obrigatorio=True
+        # V9: SELECTBOX FIXO. NÃO É CAMPO DE TEXTO.
+        # As 19 placas oficiais ficam disponíveis diretamente para seleção.
+        placa = st.selectbox(
+            "Placa *",
+            [
+                "CFI2B71",
+                "COT3D61",
+                "CUT3G00",
+                "DLU8J74",
+                "EFT8H38",
+                "EPP2I45",
+                "EQJ5C41",
+                "EQT3D56",
+                "ETW0J23",
+                "EUY6558",
+                "FBL5951",
+                "FCO2E02",
+                "FNO8H33",
+                "FZZ8B91",
+                "GDS0105",
+                "GDS0E23",
+                "GDS0H41",
+                "GDS2013",
+                "GHT9B78",
+            ],
+            index=0,
+            key="nova_manutencao_placa_v9"
         )
-        placa = normaliza_placa(placa)
-        st.caption("Selecione uma das placas cadastradas da frota GDS.")
+        st.caption("Clique na seta e selecione a placa. Não é necessário digitar.")
 
         dt=st.date_input("Data *",date.today())
         nf=st.text_input("Nº recibo / NF")

@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-09-25T19:51:17",
+  "atualizado_em": "2026-09-25T19:53:24",
   "registros": [
     {
       "id": 1,
@@ -3990,6 +3990,21 @@
       "valor": 116.83,
       "observacao": "",
       "criado_em": "2026-09-25T19:51:17",
+      "origem": "APP"
+    },
+    {
+      "id": 267,
+      "placa": "FNO8H33",
+      "data": "2026-08-01",
+      "nf_recibo": "003504618",
+      "cnpj_fornecedor": "24.651.932/0001-62",
+      "nome_fornecedor": "D.M.YAMAMOTO LTDA",
+      "tipo_manutencao": "Outros",
+      "produto_servico": "PAR PALHETA BOSCH",
+      "quantidade": null,
+      "valor": 78.99,
+      "observacao": "",
+      "criado_em": "2026-09-25T19:53:24",
       "origem": "APP"
     }
   ]

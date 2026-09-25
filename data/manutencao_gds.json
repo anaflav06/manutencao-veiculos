@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-09-25T19:53:24",
+  "atualizado_em": "2026-09-25T19:59:00",
   "registros": [
     {
       "id": 1,
@@ -4005,6 +4005,21 @@
       "valor": 78.99,
       "observacao": "",
       "criado_em": "2026-09-25T19:53:24",
+      "origem": "APP"
+    },
+    {
+      "id": 268,
+      "placa": "EQJ5C41",
+      "data": "2026-08-06",
+      "nf_recibo": "000061291",
+      "cnpj_fornecedor": "48.613.953/0001-51",
+      "nome_fornecedor": "AVANTE E COMMERCE LTDA",
+      "tipo_manutencao": "Outros",
+      "produto_servico": "KIT PALHETA LIMPADOR PARABRISA",
+      "quantidade": null,
+      "valor": 28.49,
+      "observacao": "",
+      "criado_em": "2026-09-25T19:59:00",
       "origem": "APP"
     }
   ]

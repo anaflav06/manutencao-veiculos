@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-09-25T20:04:42",
+  "atualizado_em": "2026-09-25T20:12:19",
   "registros": [
     {
       "id": 1,
@@ -4035,6 +4035,21 @@
       "valor": 59.9,
       "observacao": "",
       "criado_em": "2026-09-25T20:04:42",
+      "origem": "APP"
+    },
+    {
+      "id": 270,
+      "placa": "GDS0E23",
+      "data": "2026-09-13",
+      "nf_recibo": "000013314",
+      "cnpj_fornecedor": "51.802.847/0001-20",
+      "nome_fornecedor": "MYDRAL AUTOMOTIVA E INDUSTRIAL LTDA",
+      "tipo_manutencao": "Outros",
+      "produto_servico": "LADO LANTERNA TRASEIRA VW DELIVERY",
+      "quantidade": null,
+      "valor": 489.98,
+      "observacao": "",
+      "criado_em": "2026-09-25T20:12:18",
       "origem": "APP"
     }
   ]

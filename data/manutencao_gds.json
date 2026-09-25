@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-09-25T19:18:58",
+  "atualizado_em": "2026-09-25T19:41:48",
   "registros": [
     {
       "id": 1,
@@ -3945,6 +3945,21 @@
       "valor": 33.99,
       "observacao": "",
       "criado_em": "2026-09-25T19:18:58",
+      "origem": "APP"
+    },
+    {
+      "id": 264,
+      "placa": "EQJ5C41",
+      "data": "2026-05-19",
+      "nf_recibo": "000154575",
+      "cnpj_fornecedor": "16.637.947/0001-48",
+      "nome_fornecedor": "FLASH IMPORTS  LEO RIBEIRO COMERCIO DE PEÇAS",
+      "tipo_manutencao": "Outros",
+      "produto_servico": "AMORTECEDOR PORTA MALA TAMPA TRASEIRA",
+      "quantidade": null,
+      "valor": 33.99,
+      "observacao": "",
+      "criado_em": "2026-09-25T19:41:48",
       "origem": "APP"
     }
   ]

@@ -493,10 +493,20 @@ if menu=="📊 Dashboard":
 # =========================================================
 elif menu=="➕ Nova manutenção":
     st.markdown('<div class="gds-title">Nova manutenção</div>',unsafe_allow_html=True)
-    st.markdown('<div class="gds-sub">Selecione a placa da frota GDS e informe os dados da manutenção. • V9</div>',unsafe_allow_html=True)
+    st.markdown('<div class="gds-sub">Selecione a placa da frota GDS e informe os dados da manutenção.</div>',unsafe_allow_html=True)
 
     if "novo_cnpj" not in st.session_state: st.session_state.novo_cnpj=""
     if "novo_fornecedor" not in st.session_state: st.session_state.novo_fornecedor=""
+
+    # Limpa os widgets somente no início da execução seguinte.
+    if st.session_state.pop("_limpar_nova_manutencao", False):
+        st.session_state.novo_cnpj = ""
+        st.session_state.novo_fornecedor = ""
+
+    mensagem_salva = st.session_state.pop("_mensagem_manutencao_salva", None)
+    if mensagem_salva:
+        st.success(mensagem_salva)
+
     def preenche_fornecedor():
         nome=supplier_name(st.session_state.get("novo_cnpj",""),df)
         if nome: st.session_state.novo_fornecedor=nome
@@ -570,8 +580,9 @@ elif menu=="➕ Nova manutenção":
                 "valor":valor,"observacao":obs.strip(),"criado_em":datetime.now().isoformat(timespec="seconds"),"origem":"APP"
             })
             save_records(regs)
-            st.session_state.novo_cnpj=""; st.session_state.novo_fornecedor=""
-            st.success(f"Manutenção da placa {placa} salva com sucesso."); st.rerun()
+            st.session_state["_limpar_nova_manutencao"] = True
+            st.session_state["_mensagem_manutencao_salva"] = f"Manutenção da placa {placa} salva com sucesso."
+            st.rerun()
 
 # =========================================================
 # EDITAR

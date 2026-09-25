@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-09-25T20:12:19",
+  "atualizado_em": "2026-09-25T20:17:32",
   "registros": [
     {
       "id": 1,
@@ -4050,6 +4050,21 @@
       "valor": 489.98,
       "observacao": "",
       "criado_em": "2026-09-25T20:12:18",
+      "origem": "APP"
+    },
+    {
+      "id": 271,
+      "placa": "EQT3D56",
+      "data": "2026-08-24",
+      "nf_recibo": "314",
+      "cnpj_fornecedor": "N/C",
+      "nome_fornecedor": "JR MECÂNICA EM GERAL",
+      "tipo_manutencao": "Outros",
+      "produto_servico": "N/C",
+      "quantidade": null,
+      "valor": 517.0,
+      "observacao": "",
+      "criado_em": "2026-09-25T20:17:32",
       "origem": "APP"
     }
   ]

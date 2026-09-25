@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-09-25T19:59:00",
+  "atualizado_em": "2026-09-25T20:04:42",
   "registros": [
     {
       "id": 1,
@@ -4020,6 +4020,21 @@
       "valor": 28.49,
       "observacao": "",
       "criado_em": "2026-09-25T19:59:00",
+      "origem": "APP"
+    },
+    {
+      "id": 269,
+      "placa": "FNO8H33",
+      "data": "2026-08-28",
+      "nf_recibo": "000085469",
+      "cnpj_fornecedor": "46.610.639/0001-90",
+      "nome_fornecedor": "H7 DISTRIBUIDORA LTDA",
+      "tipo_manutencao": "Outros",
+      "produto_servico": "MANGUERA DA ENTRADA AR QUENTE",
+      "quantidade": null,
+      "valor": 59.9,
+      "observacao": "",
+      "criado_em": "2026-09-25T20:04:42",
       "origem": "APP"
     }
   ]

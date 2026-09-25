@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-09-25T20:17:32",
+  "atualizado_em": "2026-09-25T20:28:33",
   "registros": [
     {
       "id": 1,
@@ -4065,6 +4065,21 @@
       "valor": 517.0,
       "observacao": "",
       "criado_em": "2026-09-25T20:17:32",
+      "origem": "APP"
+    },
+    {
+      "id": 272,
+      "placa": "FZZ8B91",
+      "data": "2026-08-27",
+      "nf_recibo": "100",
+      "cnpj_fornecedor": "08.114.141/0001-47",
+      "nome_fornecedor": "VIDROTECNI",
+      "tipo_manutencao": "Outros",
+      "produto_servico": "CORTE RETORSOR",
+      "quantidade": null,
+      "valor": 140.0,
+      "observacao": "",
+      "criado_em": "2026-09-25T20:28:32",
       "origem": "APP"
     }
   ]

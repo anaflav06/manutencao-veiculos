@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-09-25T19:41:48",
+  "atualizado_em": "2026-09-25T19:48:52",
   "registros": [
     {
       "id": 1,
@@ -3960,6 +3960,21 @@
       "valor": 33.99,
       "observacao": "",
       "criado_em": "2026-09-25T19:41:48",
+      "origem": "APP"
+    },
+    {
+      "id": 265,
+      "placa": "EQJ5C41",
+      "data": "2026-05-29",
+      "nf_recibo": "000246003",
+      "cnpj_fornecedor": "44.220.997/0001-60",
+      "nome_fornecedor": "RENALBOR RENALBOR COMERCIO E DISTRIBUIDORA",
+      "tipo_manutencao": "Outros",
+      "produto_servico": "LANTERNA TRASSEIRA UNO 2004",
+      "quantidade": null,
+      "valor": 56.99,
+      "observacao": "",
+      "criado_em": "2026-09-25T19:48:52",
       "origem": "APP"
     }
   ]

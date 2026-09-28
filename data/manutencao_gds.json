@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-09-28T19:48:59",
+  "atualizado_em": "2026-09-28T19:51:02",
   "registros": [
     {
       "id": 1,
@@ -4125,6 +4125,21 @@
       "valor": 1150.0,
       "observacao": "",
       "criado_em": "2026-09-28T19:48:07",
+      "origem": "APP"
+    },
+    {
+      "id": 276,
+      "placa": "EFT8H38",
+      "data": "2026-08-18",
+      "nf_recibo": "1171",
+      "cnpj_fornecedor": "N/C",
+      "nome_fornecedor": "TATÃO AUTO",
+      "tipo_manutencao": "Outros",
+      "produto_servico": "TROCA AMORTCEDOR DIANTEIRO / TROCA KITS BATENTE /TROCA DE SENSOR TEMP/TROCA DE AGUA",
+      "quantidade": null,
+      "valor": 320.0,
+      "observacao": "",
+      "criado_em": "2026-09-28T19:51:01",
       "origem": "APP"
     }
   ]

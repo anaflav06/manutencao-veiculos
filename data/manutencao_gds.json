@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-09-28T19:53:11",
+  "atualizado_em": "2026-09-28T19:55:23",
   "registros": [
     {
       "id": 1,
@@ -4155,6 +4155,21 @@
       "valor": 70.0,
       "observacao": "",
       "criado_em": "2026-09-28T19:53:11",
+      "origem": "APP"
+    },
+    {
+      "id": 278,
+      "placa": "EQJ5C41",
+      "data": "2026-09-01",
+      "nf_recibo": "1173",
+      "cnpj_fornecedor": "N/C",
+      "nome_fornecedor": "VEMAG AUTO PARTS",
+      "tipo_manutencao": "Outros",
+      "produto_servico": "CIRCUITO",
+      "quantidade": null,
+      "valor": 55.0,
+      "observacao": "",
+      "criado_em": "2026-09-28T19:55:23",
       "origem": "APP"
     }
   ]

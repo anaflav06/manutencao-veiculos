@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-09-28T19:51:02",
+  "atualizado_em": "2026-09-28T19:53:11",
   "registros": [
     {
       "id": 1,
@@ -4140,6 +4140,21 @@
       "valor": 320.0,
       "observacao": "",
       "criado_em": "2026-09-28T19:51:01",
+      "origem": "APP"
+    },
+    {
+      "id": 277,
+      "placa": "GDS0E23",
+      "data": "2026-08-31",
+      "nf_recibo": "1172",
+      "cnpj_fornecedor": "N/C",
+      "nome_fornecedor": "SAN MARTINS",
+      "tipo_manutencao": "Elétrica",
+      "produto_servico": "LAMPADA H4",
+      "quantidade": null,
+      "valor": 70.0,
+      "observacao": "",
+      "criado_em": "2026-09-28T19:53:11",
       "origem": "APP"
     }
   ]

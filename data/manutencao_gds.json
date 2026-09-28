@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-09-28T20:09:38",
+  "atualizado_em": "2026-09-28T20:11:06",
   "registros": [
     {
       "id": 1,
@@ -4245,6 +4245,21 @@
       "valor": 553.0,
       "observacao": "",
       "criado_em": "2026-09-28T20:09:38",
+      "origem": "APP"
+    },
+    {
+      "id": 284,
+      "placa": "FZZ8B91",
+      "data": "2026-07-22",
+      "nf_recibo": "1178",
+      "cnpj_fornecedor": "N/C",
+      "nome_fornecedor": "RDO DO ÓLEO",
+      "tipo_manutencao": "Preventiva",
+      "produto_servico": "ÓLEO / DISEL /ENGRAXADA",
+      "quantidade": null,
+      "valor": 1163.0,
+      "observacao": "",
+      "criado_em": "2026-09-28T20:11:06",
       "origem": "APP"
     }
   ]

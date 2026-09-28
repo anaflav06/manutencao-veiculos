@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-09-28T19:55:23",
+  "atualizado_em": "2026-09-28T20:01:36",
   "registros": [
     {
       "id": 1,
@@ -4170,6 +4170,21 @@
       "valor": 55.0,
       "observacao": "",
       "criado_em": "2026-09-28T19:55:23",
+      "origem": "APP"
+    },
+    {
+      "id": 279,
+      "placa": "COT3D61",
+      "data": "2026-09-03",
+      "nf_recibo": "1174",
+      "cnpj_fornecedor": "N/C",
+      "nome_fornecedor": "RDO DO ÓLEO",
+      "tipo_manutencao": "Outros",
+      "produto_servico": "ÓLEO/ DISEL / AR",
+      "quantidade": null,
+      "valor": 1054.0,
+      "observacao": "",
+      "criado_em": "2026-09-28T20:01:36",
       "origem": "APP"
     }
   ]

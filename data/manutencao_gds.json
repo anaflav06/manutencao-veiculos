@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-09-28T19:41:13",
+  "atualizado_em": "2026-09-28T19:45:52",
   "registros": [
     {
       "id": 1,
@@ -4095,6 +4095,21 @@
       "valor": 130.0,
       "observacao": "",
       "criado_em": "2026-09-28T19:41:13",
+      "origem": "APP"
+    },
+    {
+      "id": 274,
+      "placa": "GHT9B78",
+      "data": "2026-09-01",
+      "nf_recibo": "000101163",
+      "cnpj_fornecedor": "42.580.092/0077-74",
+      "nome_fornecedor": "",
+      "tipo_manutencao": "Preventiva",
+      "produto_servico": "KIT EMBREAGEM",
+      "quantidade": null,
+      "valor": 8842.29,
+      "observacao": "",
+      "criado_em": "2026-09-28T19:45:52",
       "origem": "APP"
     }
   ]

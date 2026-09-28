@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-09-28T19:40:06",
+  "atualizado_em": "2026-09-28T19:41:13",
   "registros": [
     {
       "id": 1,
@@ -4080,6 +4080,21 @@
       "valor": 140.0,
       "observacao": "",
       "criado_em": "2026-09-25T20:28:32",
+      "origem": "APP"
+    },
+    {
+      "id": 273,
+      "placa": "EQJ5C41",
+      "data": "2026-09-25",
+      "nf_recibo": "1169",
+      "cnpj_fornecedor": "N/C",
+      "nome_fornecedor": "",
+      "tipo_manutencao": "Pneus",
+      "produto_servico": "ALINHAMENTO E BALANCEAMENTO",
+      "quantidade": null,
+      "valor": 130.0,
+      "observacao": "",
+      "criado_em": "2026-09-28T19:41:13",
       "origem": "APP"
     }
   ]

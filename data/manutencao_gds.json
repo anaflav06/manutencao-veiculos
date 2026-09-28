@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-09-28T19:48:08",
+  "atualizado_em": "2026-09-28T19:48:37",
   "registros": [
     {
       "id": 1,
@@ -4103,7 +4103,7 @@
       "data": "2026-09-01",
       "nf_recibo": "000101163",
       "cnpj_fornecedor": "42.580.092/0077-74",
-      "nome_fornecedor": "",
+      "nome_fornecedor": "IVECO COFIPE",
       "tipo_manutencao": "Preventiva",
       "produto_servico": "KIT EMBREAGEM",
       "quantidade": null,

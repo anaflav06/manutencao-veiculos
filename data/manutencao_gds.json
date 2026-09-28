@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-09-28T19:48:37",
+  "atualizado_em": "2026-09-28T19:48:59",
   "registros": [
     {
       "id": 1,
@@ -4088,7 +4088,7 @@
       "data": "2026-09-25",
       "nf_recibo": "1169",
       "cnpj_fornecedor": "N/C",
-      "nome_fornecedor": "",
+      "nome_fornecedor": "MILAMAS",
       "tipo_manutencao": "Pneus",
       "produto_servico": "ALINHAMENTO E BALANCEAMENTO",
       "quantidade": null,

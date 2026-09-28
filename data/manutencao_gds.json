@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-09-28T19:45:52",
+  "atualizado_em": "2026-09-28T19:48:08",
   "registros": [
     {
       "id": 1,
@@ -4110,6 +4110,21 @@
       "valor": 8842.29,
       "observacao": "",
       "criado_em": "2026-09-28T19:45:52",
+      "origem": "APP"
+    },
+    {
+      "id": 275,
+      "placa": "FNO8H33",
+      "data": "2026-08-27",
+      "nf_recibo": "1170",
+      "cnpj_fornecedor": "N/C",
+      "nome_fornecedor": "TATÃO AUTO",
+      "tipo_manutencao": "Revisão",
+      "produto_servico": "TROCA DE JUNTA DE CABEÇOTE",
+      "quantidade": null,
+      "valor": 1150.0,
+      "observacao": "",
+      "criado_em": "2026-09-28T19:48:07",
       "origem": "APP"
     }
   ]

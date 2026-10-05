@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-10-05T20:35:41",
+  "atualizado_em": "2026-10-05T20:43:12",
   "registros": [
     {
       "id": 1,
@@ -4305,6 +4305,21 @@
       "valor": 40.0,
       "observacao": "",
       "criado_em": "2026-10-05T20:35:41",
+      "origem": "APP"
+    },
+    {
+      "id": 288,
+      "placa": "EPP2I45",
+      "data": "2026-10-02",
+      "nf_recibo": "1171",
+      "cnpj_fornecedor": "N/C",
+      "nome_fornecedor": "AUTO ELETRÍCA SAN MARTINS",
+      "tipo_manutencao": "Elétrica",
+      "produto_servico": "H4  12V",
+      "quantidade": null,
+      "valor": 25.0,
+      "observacao": "",
+      "criado_em": "2026-10-05T20:43:12",
       "origem": "APP"
     }
   ]

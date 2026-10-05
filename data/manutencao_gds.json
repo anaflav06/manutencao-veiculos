@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-09-28T20:13:46",
+  "atualizado_em": "2026-10-05T20:35:41",
   "registros": [
     {
       "id": 1,
@@ -4290,6 +4290,21 @@
       "valor": 704.0,
       "observacao": "",
       "criado_em": "2026-09-28T20:13:45",
+      "origem": "APP"
+    },
+    {
+      "id": 287,
+      "placa": "GDS0E23",
+      "data": "2026-10-05",
+      "nf_recibo": "1170",
+      "cnpj_fornecedor": "N/C",
+      "nome_fornecedor": "AUTO ELETRÍCA SAN MARTINS",
+      "tipo_manutencao": "Elétrica",
+      "produto_servico": "N/C",
+      "quantidade": null,
+      "valor": 40.0,
+      "observacao": "",
+      "criado_em": "2026-10-05T20:35:41",
       "origem": "APP"
     }
   ]

@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-10-05T20:55:45",
+  "atualizado_em": "2026-10-16T20:41:26",
   "registros": [
     {
       "id": 1,
@@ -4320,6 +4320,21 @@
       "valor": 25.0,
       "observacao": "",
       "criado_em": "2026-10-05T20:43:12",
+      "origem": "APP"
+    },
+    {
+      "id": 289,
+      "placa": "GDS0E23",
+      "data": "2026-09-13",
+      "nf_recibo": "000013314",
+      "cnpj_fornecedor": "51.637.947/0001-48",
+      "nome_fornecedor": "MYDRAL AUTOMOTIVA E INDUSTRIAL LTDA",
+      "tipo_manutencao": "Outros",
+      "produto_servico": "LADO LANTERNA TRASEIRA",
+      "quantidade": null,
+      "valor": 489.98,
+      "observacao": "",
+      "criado_em": "2026-10-16T20:41:25",
       "origem": "APP"
     }
   ]

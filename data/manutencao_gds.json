@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-03T20:14:56",
+  "atualizado_em": "2026-11-03T20:17:05",
   "registros": [
     {
       "id": 1,
@@ -4800,6 +4800,21 @@
       "valor": 115.0,
       "observacao": "",
       "criado_em": "2026-11-03T20:14:56",
+      "origem": "APP"
+    },
+    {
+      "id": 321,
+      "placa": "FBL5951",
+      "data": "2026-09-10",
+      "nf_recibo": "1188",
+      "cnpj_fornecedor": "N/C",
+      "nome_fornecedor": "TATÃO AUTO",
+      "tipo_manutencao": "Preventiva",
+      "produto_servico": "TROCA DE VELAS / CABOS DE VELAS / FILTRO DE AR",
+      "quantidade": null,
+      "valor": 150.0,
+      "observacao": "",
+      "criado_em": "2026-11-03T20:17:05",
       "origem": "APP"
     }
   ]

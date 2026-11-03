@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-03T19:41:55",
+  "atualizado_em": "2026-11-03T19:44:17",
   "registros": [
     {
       "id": 1,
@@ -4605,6 +4605,21 @@
       "valor": 1375.0,
       "observacao": "",
       "criado_em": "2026-11-03T19:41:55",
+      "origem": "APP"
+    },
+    {
+      "id": 308,
+      "placa": "ETW0J23",
+      "data": "2026-10-06",
+      "nf_recibo": "1179",
+      "cnpj_fornecedor": "N/C",
+      "nome_fornecedor": "TATÃO AUTO",
+      "tipo_manutencao": "Corretiva",
+      "produto_servico": "TROCA ROLAMENTO",
+      "quantidade": null,
+      "valor": 120.0,
+      "observacao": "",
+      "criado_em": "2026-11-03T19:44:17",
       "origem": "APP"
     }
   ]

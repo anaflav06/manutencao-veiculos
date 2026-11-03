@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-03T16:15:52",
+  "atualizado_em": "2026-11-03T16:16:54",
   "registros": [
     {
       "id": 1,
@@ -4425,6 +4425,21 @@
       "valor": 130.0,
       "observacao": "",
       "criado_em": "2026-11-03T16:15:52",
+      "origem": "APP"
+    },
+    {
+      "id": 296,
+      "placa": "GDS0H41",
+      "data": "2026-10-10",
+      "nf_recibo": "0160",
+      "cnpj_fornecedor": "20.777.977/0001-27",
+      "nome_fornecedor": "BORRACHARIA BATATA",
+      "tipo_manutencao": "Outros",
+      "produto_servico": "RODA",
+      "quantidade": null,
+      "valor": 300.0,
+      "observacao": "",
+      "criado_em": "2026-11-03T16:16:54",
       "origem": "APP"
     }
   ]

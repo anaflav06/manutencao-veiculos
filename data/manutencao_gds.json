@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-03T18:46:01",
+  "atualizado_em": "2026-11-03T19:41:55",
   "registros": [
     {
       "id": 1,
@@ -4590,6 +4590,21 @@
       "valor": 130.66,
       "observacao": "",
       "criado_em": "2026-11-03T18:46:00",
+      "origem": "APP"
+    },
+    {
+      "id": 307,
+      "placa": "FBL5951",
+      "data": "2026-10-07",
+      "nf_recibo": "1178",
+      "cnpj_fornecedor": "N/C",
+      "nome_fornecedor": "TATÃO AUTO",
+      "tipo_manutencao": "Corretiva",
+      "produto_servico": "TROCA AMORT/TROCA EIXO/EIXO",
+      "quantidade": null,
+      "valor": 1375.0,
+      "observacao": "",
+      "criado_em": "2026-11-03T19:41:55",
       "origem": "APP"
     }
   ]

@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-03T20:09:52",
+  "atualizado_em": "2026-11-03T20:12:10",
   "registros": [
     {
       "id": 1,
@@ -4770,6 +4770,21 @@
       "valor": 345.0,
       "observacao": "",
       "criado_em": "2026-11-03T20:09:29",
+      "origem": "APP"
+    },
+    {
+      "id": 319,
+      "placa": "GHT9B78",
+      "data": "2026-09-01",
+      "nf_recibo": "000101163",
+      "cnpj_fornecedor": "42.580.092/0077-74",
+      "nome_fornecedor": "IVECO COFIPE",
+      "tipo_manutencao": "Outros",
+      "produto_servico": "KIT EMBREAGEM",
+      "quantidade": null,
+      "valor": 8842.29,
+      "observacao": "",
+      "criado_em": "2026-11-03T20:12:09",
       "origem": "APP"
     }
   ]

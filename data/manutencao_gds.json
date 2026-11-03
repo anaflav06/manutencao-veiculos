@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-03T20:33:01",
+  "atualizado_em": "2026-11-03T20:34:06",
   "registros": [
     {
       "id": 1,
@@ -4890,6 +4890,21 @@
       "valor": 403.0,
       "observacao": "",
       "criado_em": "2026-11-03T20:33:01",
+      "origem": "APP"
+    },
+    {
+      "id": 327,
+      "placa": "EQJ5C41",
+      "data": "2026-09-30",
+      "nf_recibo": "00176912",
+      "cnpj_fornecedor": "02.038.706/0001-78",
+      "nome_fornecedor": "VENAN PEÇAS",
+      "tipo_manutencao": "Outros",
+      "produto_servico": "P CHOQUE",
+      "quantidade": null,
+      "valor": 198.0,
+      "observacao": "",
+      "criado_em": "2026-11-03T20:34:06",
       "origem": "APP"
     }
   ]

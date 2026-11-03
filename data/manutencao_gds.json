@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-03T20:26:33",
+  "atualizado_em": "2026-11-03T20:33:01",
   "registros": [
     {
       "id": 1,
@@ -4875,6 +4875,21 @@
       "valor": 242.0,
       "observacao": "",
       "criado_em": "2026-11-03T20:26:32",
+      "origem": "APP"
+    },
+    {
+      "id": 326,
+      "placa": "FBL5951",
+      "data": "2026-09-30",
+      "nf_recibo": "00176912",
+      "cnpj_fornecedor": "02.038.706/0001-78",
+      "nome_fornecedor": "VENANPEÇAS",
+      "tipo_manutencao": "Funilaria",
+      "produto_servico": "P CHOQUE DIANTE/P CHOQUE TRASEIRO / GRANDE PARACHOQUE",
+      "quantidade": null,
+      "valor": 403.0,
+      "observacao": "",
+      "criado_em": "2026-11-03T20:33:01",
       "origem": "APP"
     }
   ]

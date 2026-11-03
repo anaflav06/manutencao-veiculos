@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-03T16:11:59",
+  "atualizado_em": "2026-11-03T16:14:06",
   "registros": [
     {
       "id": 1,
@@ -4395,6 +4395,21 @@
       "valor": 4220.0,
       "observacao": "",
       "criado_em": "2026-11-03T16:11:58",
+      "origem": "APP"
+    },
+    {
+      "id": 294,
+      "placa": "GDS0105",
+      "data": "2026-10-14",
+      "nf_recibo": "1176",
+      "cnpj_fornecedor": "N/C",
+      "nome_fornecedor": "MARTINS MARTINS",
+      "tipo_manutencao": "Corretiva",
+      "produto_servico": "CONSERTO DO MOTOR PARTIDA",
+      "quantidade": null,
+      "valor": 890.0,
+      "observacao": "",
+      "criado_em": "2026-11-03T16:14:06",
       "origem": "APP"
     }
   ]

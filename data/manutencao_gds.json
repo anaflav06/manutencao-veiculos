@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-03T16:03:45",
+  "atualizado_em": "2026-11-03T16:08:23",
   "registros": [
     {
       "id": 1,
@@ -4365,6 +4365,21 @@
       "valor": 1960.0,
       "observacao": "",
       "criado_em": "2026-11-03T16:03:45",
+      "origem": "APP"
+    },
+    {
+      "id": 292,
+      "placa": "CUT3G00",
+      "data": "2026-10-16",
+      "nf_recibo": "000024674",
+      "cnpj_fornecedor": "31.135.931/0003-92",
+      "nome_fornecedor": "AMAZONAS",
+      "tipo_manutencao": "Revisão",
+      "produto_servico": "BROZINA DE USO NO MOTOR DE VEÍCULO AUTO/ COLLECTION SEGMENT/ COLLECTION ENTRAINEMENT / JOINT CULASSE/ COLEC ROLAMENTO/ BOMBA DE ÁGUA PARA MOTOR DE VEÍCULOS AUTO",
+      "quantidade": null,
+      "valor": 51500.0,
+      "observacao": "",
+      "criado_em": "2026-11-03T16:08:22",
       "origem": "APP"
     }
   ]

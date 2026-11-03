@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-03T18:37:09",
+  "atualizado_em": "2026-11-03T18:38:32",
   "registros": [
     {
       "id": 1,
@@ -4530,6 +4530,21 @@
       "valor": 400.0,
       "observacao": "",
       "criado_em": "2026-11-03T18:37:09",
+      "origem": "APP"
+    },
+    {
+      "id": 303,
+      "placa": "FZZ8B91",
+      "data": "2026-09-03",
+      "nf_recibo": "000961594",
+      "cnpj_fornecedor": "01.900.227/0001-56",
+      "nome_fornecedor": "DIBRACAM COMERCIAL LTDA",
+      "tipo_manutencao": "Outros",
+      "produto_servico": "TAMPA",
+      "quantidade": null,
+      "valor": 285.92,
+      "observacao": "",
+      "criado_em": "2026-11-03T18:38:31",
       "origem": "APP"
     }
   ]

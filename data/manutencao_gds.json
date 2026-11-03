@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-03T16:18:04",
+  "atualizado_em": "2026-11-03T16:20:07",
   "registros": [
     {
       "id": 1,
@@ -4455,6 +4455,21 @@
       "valor": 80.0,
       "observacao": "",
       "criado_em": "2026-11-03T16:18:03",
+      "origem": "APP"
+    },
+    {
+      "id": 298,
+      "placa": "EPP2I45",
+      "data": "2026-10-02",
+      "nf_recibo": "1177",
+      "cnpj_fornecedor": "N/C",
+      "nome_fornecedor": "SAN MARTINS",
+      "tipo_manutencao": "Outros",
+      "produto_servico": "N/C",
+      "quantidade": null,
+      "valor": 25.0,
+      "observacao": "",
+      "criado_em": "2026-11-03T16:20:07",
       "origem": "APP"
     }
   ]

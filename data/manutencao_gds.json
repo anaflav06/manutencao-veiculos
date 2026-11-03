@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-03T18:40:16",
+  "atualizado_em": "2026-11-03T18:44:21",
   "registros": [
     {
       "id": 1,
@@ -4560,6 +4560,21 @@
       "valor": 2100.0,
       "observacao": "",
       "criado_em": "2026-11-03T18:40:16",
+      "origem": "APP"
+    },
+    {
+      "id": 305,
+      "placa": "GDS0E23",
+      "data": "2026-09-30",
+      "nf_recibo": "100725",
+      "cnpj_fornecedor": "035654688002585",
+      "nome_fornecedor": "TIETE VEICULOS LTDA - CAMPINA",
+      "tipo_manutencao": "Preventiva",
+      "produto_servico": "LUBRIFICAÇÃO MEDIO/ FILTRO DE AR / RESERVATORIOARLA 32/ FILTRO SECADOR/ FILTRO DE POEIRA E LOENS /ÓLEO / FILTRO DE ÓLEO/ ANEL BUJAO/ FILTRO DE AR/ FILTRO DE AR CONCIONADO/ FILTRO DE POLEM / ELEM/ FILTRO PESCADOR/ FILTRO/",
+      "quantidade": null,
+      "valor": 5796.1,
+      "observacao": "",
+      "criado_em": "2026-11-03T18:44:21",
       "origem": "APP"
     }
   ]

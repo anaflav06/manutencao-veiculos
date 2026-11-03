@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-03T16:08:23",
+  "atualizado_em": "2026-11-03T16:11:59",
   "registros": [
     {
       "id": 1,
@@ -4380,6 +4380,21 @@
       "valor": 51500.0,
       "observacao": "",
       "criado_em": "2026-11-03T16:08:22",
+      "origem": "APP"
+    },
+    {
+      "id": 293,
+      "placa": "GDS0H41",
+      "data": "2026-10-20",
+      "nf_recibo": "9955",
+      "cnpj_fornecedor": "10.472.129/0020-19",
+      "nome_fornecedor": "PONTO5",
+      "tipo_manutencao": "Pneus",
+      "produto_servico": "PNEU",
+      "quantidade": null,
+      "valor": 4220.0,
+      "observacao": "",
+      "criado_em": "2026-11-03T16:11:58",
       "origem": "APP"
     }
   ]

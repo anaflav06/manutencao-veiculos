@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-03T18:17:32",
+  "atualizado_em": "2026-11-03T18:35:36",
   "registros": [
     {
       "id": 1,
@@ -4500,6 +4500,21 @@
       "valor": 5796.1,
       "observacao": "",
       "criado_em": "2026-11-03T18:17:32",
+      "origem": "APP"
+    },
+    {
+      "id": 301,
+      "placa": "FZZ8B91",
+      "data": "2026-09-12",
+      "nf_recibo": "000263427",
+      "cnpj_fornecedor": "124323290000887",
+      "nome_fornecedor": "ANCHIETA PEÇAS DIST.DE PEÇAS",
+      "tipo_manutencao": "Preventiva",
+      "produto_servico": "JUNTA DO CARTER MOTOR/VALVULA / ÓLEO MOTOR",
+      "quantidade": null,
+      "valor": 1200.0,
+      "observacao": "",
+      "criado_em": "2026-11-03T18:35:36",
       "origem": "APP"
     }
   ]

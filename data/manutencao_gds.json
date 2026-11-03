@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-03T20:12:10",
+  "atualizado_em": "2026-11-03T20:14:56",
   "registros": [
     {
       "id": 1,
@@ -4785,6 +4785,21 @@
       "valor": 8842.29,
       "observacao": "",
       "criado_em": "2026-11-03T20:12:09",
+      "origem": "APP"
+    },
+    {
+      "id": 320,
+      "placa": "GDS0105",
+      "data": "2026-09-24",
+      "nf_recibo": "466424440",
+      "cnpj_fornecedor": "N/C",
+      "nome_fornecedor": "MICHELIN CONNECTED FLEET",
+      "tipo_manutencao": "Outros",
+      "produto_servico": "COBRANÇA DE VISITA IMPRODUTIVA (NADA CONSTADO)",
+      "quantidade": null,
+      "valor": 115.0,
+      "observacao": "",
+      "criado_em": "2026-11-03T20:14:56",
       "origem": "APP"
     }
   ]

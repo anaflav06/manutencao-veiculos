@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-03T20:07:05",
+  "atualizado_em": "2026-11-03T20:09:30",
   "registros": [
     {
       "id": 1,
@@ -4755,6 +4755,21 @@
       "valor": 191.0,
       "observacao": "",
       "criado_em": "2026-11-03T20:07:05",
+      "origem": "APP"
+    },
+    {
+      "id": 318,
+      "placa": "FBL5951",
+      "data": "2026-11-03",
+      "nf_recibo": "1188",
+      "cnpj_fornecedor": "N/C",
+      "nome_fornecedor": "TATÃO AUTO",
+      "tipo_manutencao": "Outros",
+      "produto_servico": "AMOR DIANTEIRO/ BATI SUP/ KITS ASTE",
+      "quantidade": null,
+      "valor": 345.0,
+      "observacao": "",
+      "criado_em": "2026-11-03T20:09:29",
       "origem": "APP"
     }
   ]

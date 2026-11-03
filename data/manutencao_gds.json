@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-03T16:20:07",
+  "atualizado_em": "2026-11-03T16:22:41",
   "registros": [
     {
       "id": 1,
@@ -4470,6 +4470,21 @@
       "valor": 25.0,
       "observacao": "",
       "criado_em": "2026-11-03T16:20:07",
+      "origem": "APP"
+    },
+    {
+      "id": 299,
+      "placa": "GDS0H41",
+      "data": "2026-10-10",
+      "nf_recibo": "000038319",
+      "cnpj_fornecedor": "00.280.275/0001-26",
+      "nome_fornecedor": "PARANÁ DIESEL",
+      "tipo_manutencao": "Outros",
+      "produto_servico": "CUICA FREIO 24X30/ CONEXÃO DE VALVULA",
+      "quantidade": null,
+      "valor": 469.0,
+      "observacao": "",
+      "criado_em": "2026-11-03T16:22:40",
       "origem": "APP"
     }
   ]

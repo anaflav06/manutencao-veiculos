@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-03T18:44:21",
+  "atualizado_em": "2026-11-03T18:46:01",
   "registros": [
     {
       "id": 1,
@@ -4575,6 +4575,21 @@
       "valor": 5796.1,
       "observacao": "",
       "criado_em": "2026-11-03T18:44:21",
+      "origem": "APP"
+    },
+    {
+      "id": 306,
+      "placa": "EQJ5C41",
+      "data": "2026-10-07",
+      "nf_recibo": "000080174",
+      "cnpj_fornecedor": "39.691.564/0001-53",
+      "nome_fornecedor": "URBANO PARTS LTDA",
+      "tipo_manutencao": "Elétrica",
+      "produto_servico": "FAROL UNO E FIORINO",
+      "quantidade": null,
+      "valor": 130.66,
+      "observacao": "",
+      "criado_em": "2026-11-03T18:46:00",
       "origem": "APP"
     }
   ]

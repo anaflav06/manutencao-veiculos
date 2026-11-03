@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-03T19:51:04",
+  "atualizado_em": "2026-11-03T19:56:54",
   "registros": [
     {
       "id": 1,
@@ -4635,6 +4635,21 @@
       "valor": 145.0,
       "observacao": "",
       "criado_em": "2026-11-03T19:51:04",
+      "origem": "APP"
+    },
+    {
+      "id": 310,
+      "placa": "FCO2E02",
+      "data": "2026-09-09",
+      "nf_recibo": "1180",
+      "cnpj_fornecedor": "N/C",
+      "nome_fornecedor": "RDO DO ÓLEO",
+      "tipo_manutencao": "Preventiva",
+      "produto_servico": "ÓLEO",
+      "quantidade": null,
+      "valor": 621.0,
+      "observacao": "",
+      "criado_em": "2026-11-03T19:56:53",
       "origem": "APP"
     }
   ]

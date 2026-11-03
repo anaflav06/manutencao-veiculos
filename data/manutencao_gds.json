@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-03T18:38:32",
+  "atualizado_em": "2026-11-03T18:40:16",
   "registros": [
     {
       "id": 1,
@@ -4545,6 +4545,21 @@
       "valor": 285.92,
       "observacao": "",
       "criado_em": "2026-11-03T18:38:31",
+      "origem": "APP"
+    },
+    {
+      "id": 304,
+      "placa": "CUT3G00",
+      "data": "2026-09-03",
+      "nf_recibo": "550",
+      "cnpj_fornecedor": "12.432.329/0008-87",
+      "nome_fornecedor": "ANCHIETA PEÇAS  DIS. DE PEÇAS",
+      "tipo_manutencao": "Outros",
+      "produto_servico": "GARFO DA EMBREAGEM",
+      "quantidade": null,
+      "valor": 2100.0,
+      "observacao": "",
+      "criado_em": "2026-11-03T18:40:16",
       "origem": "APP"
     }
   ]

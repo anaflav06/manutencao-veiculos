@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-03T20:22:35",
+  "atualizado_em": "2026-11-03T20:24:39",
   "registros": [
     {
       "id": 1,
@@ -4845,6 +4845,21 @@
       "valor": 1180.0,
       "observacao": "",
       "criado_em": "2026-11-03T20:22:35",
+      "origem": "APP"
+    },
+    {
+      "id": 324,
+      "placa": "EQJ5C41",
+      "data": "2026-09-15",
+      "nf_recibo": "612895",
+      "cnpj_fornecedor": "N/C",
+      "nome_fornecedor": "NR AUTO PECAS LTDA",
+      "tipo_manutencao": "Preventiva",
+      "produto_servico": "FLEXIVEL FREIO DIANT/FLUIDO DE FREIO/ KIT BARRA ESTABILIZADORA /BUCHA TENSOR",
+      "quantidade": null,
+      "valor": 162.0,
+      "observacao": "",
+      "criado_em": "2026-11-03T20:24:39",
       "origem": "APP"
     }
   ]

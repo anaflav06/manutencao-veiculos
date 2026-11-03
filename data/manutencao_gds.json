@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-03T20:19:45",
+  "atualizado_em": "2026-11-03T20:22:35",
   "registros": [
     {
       "id": 1,
@@ -4830,6 +4830,21 @@
       "valor": 287.0,
       "observacao": "",
       "criado_em": "2026-11-03T20:19:45",
+      "origem": "APP"
+    },
+    {
+      "id": 323,
+      "placa": "EUY6558",
+      "data": "2026-09-14",
+      "nf_recibo": "1189",
+      "cnpj_fornecedor": "N/C",
+      "nome_fornecedor": "TATAO AUTO",
+      "tipo_manutencao": "Corretiva",
+      "produto_servico": "CAMBIO/TROCA 2 FLEXVEL DIANT /TROCA 4 BUCHAS BRANCO/ TROCA LETENTOR / SOLDA /MOTOR",
+      "quantidade": null,
+      "valor": 1180.0,
+      "observacao": "",
+      "criado_em": "2026-11-03T20:22:35",
       "origem": "APP"
     }
   ]

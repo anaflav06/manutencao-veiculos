@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-03T16:16:54",
+  "atualizado_em": "2026-11-03T16:18:04",
   "registros": [
     {
       "id": 1,
@@ -4440,6 +4440,21 @@
       "valor": 300.0,
       "observacao": "",
       "criado_em": "2026-11-03T16:16:54",
+      "origem": "APP"
+    },
+    {
+      "id": 297,
+      "placa": "GDS0H41",
+      "data": "2026-10-02",
+      "nf_recibo": "0144",
+      "cnpj_fornecedor": "20.777.977/0001-27",
+      "nome_fornecedor": "BORRACHARIA BATATA",
+      "tipo_manutencao": "Outros",
+      "produto_servico": "CALIBRAGEM",
+      "quantidade": null,
+      "valor": 80.0,
+      "observacao": "",
+      "criado_em": "2026-11-03T16:18:03",
       "origem": "APP"
     }
   ]

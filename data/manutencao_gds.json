@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-03T20:17:05",
+  "atualizado_em": "2026-11-03T20:19:45",
   "registros": [
     {
       "id": 1,
@@ -4815,6 +4815,21 @@
       "valor": 150.0,
       "observacao": "",
       "criado_em": "2026-11-03T20:17:05",
+      "origem": "APP"
+    },
+    {
+      "id": 322,
+      "placa": "FBL5951",
+      "data": "2026-09-10",
+      "nf_recibo": "612740",
+      "cnpj_fornecedor": "N/C",
+      "nome_fornecedor": "NR AUTO PECAS LTDA",
+      "tipo_manutencao": "Preventiva",
+      "produto_servico": "VELA/FILTRO/CABO  VELA",
+      "quantidade": null,
+      "valor": 287.0,
+      "observacao": "",
+      "criado_em": "2026-11-03T20:19:45",
       "origem": "APP"
     }
   ]

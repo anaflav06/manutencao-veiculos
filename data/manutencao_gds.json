@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-03T20:24:39",
+  "atualizado_em": "2026-11-03T20:26:33",
   "registros": [
     {
       "id": 1,
@@ -4860,6 +4860,21 @@
       "valor": 162.0,
       "observacao": "",
       "criado_em": "2026-11-03T20:24:39",
+      "origem": "APP"
+    },
+    {
+      "id": 325,
+      "placa": "EUY6558",
+      "data": "2026-09-14",
+      "nf_recibo": "612845",
+      "cnpj_fornecedor": "N/C",
+      "nome_fornecedor": "NR AUTO PECAS LTDA",
+      "tipo_manutencao": "Preventiva",
+      "produto_servico": "ÓLEO CAMBIO/ MANGUEIRA FILTRO / CORREIA / GUIA ROLAMENTO/ COIFA CAMBIO",
+      "quantidade": null,
+      "valor": 242.0,
+      "observacao": "",
+      "criado_em": "2026-11-03T20:26:32",
       "origem": "APP"
     }
   ]

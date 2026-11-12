@@ -65,7 +65,7 @@ MESES = {
     7:"Julho", 8:"Agosto", 9:"Setembro", 10:"Outubro", 11:"Novembro", 12:"Dezembro"
 }
 
-PLACAS_GDS = ['CFI2B71', 'COT3D61', 'CUT3G00', 'DLU8J74', 'EFT8H38', 'EPP2I45', 'EQJ5C41', 'EQT3D56', 'ETW0J23', 'EUY6558', 'FBL5951', 'FCO2E02', 'FNO8H33', 'FZZ8B91', 'GDS0105', 'GDS0E23', 'GDS0H41', 'GDS2013', 'GHT9B78']
+PLACAS_GDS = ['CFI2B71', 'COT3D61', 'CUT3G00', 'DLU8J74', 'EFT8H38', 'EPP2I45', 'EQJ5C41', 'EQT3D56', 'ETW0J23', 'EUY6558', 'FBL5951', 'FCO2E02', 'FNO8H33', 'FZZ8B91', 'GDS0105', 'GDS0E23', 'GDS0H41', 'GDS2013', 'GHT9B78', 'DWP7A21']
 
 def dinheiro(v):
     try:
@@ -537,6 +537,7 @@ elif menu=="➕ Nova manutenção":
                 "GDS0H41",
                 "GDS2013",
                 "GHT9B78",
+                "DWP7A21",
             ],
             index=0,
             key="nova_manutencao_placa_v9"

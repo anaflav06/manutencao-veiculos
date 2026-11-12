@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-12T19:48:30",
+  "atualizado_em": "2026-11-12T19:50:13",
   "registros": [
     {
       "id": 1,
@@ -5040,6 +5040,21 @@
       "valor": 10.0,
       "observacao": "",
       "criado_em": "2026-11-12T19:48:30",
+      "origem": "APP"
+    },
+    {
+      "id": 337,
+      "placa": "GDS2013",
+      "data": "2026-10-22",
+      "nf_recibo": "1194",
+      "cnpj_fornecedor": "N/C",
+      "nome_fornecedor": "POSTO DE MOLAS VILA CARIOCA",
+      "tipo_manutencao": "Outros",
+      "produto_servico": "CHAPA CALÇO, PARAFUSO E MÃO DE OBRA",
+      "quantidade": null,
+      "valor": 660.0,
+      "observacao": "",
+      "criado_em": "2026-11-12T19:50:13",
       "origem": "APP"
     }
   ]

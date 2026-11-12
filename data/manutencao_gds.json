@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-12T19:32:38",
+  "atualizado_em": "2026-11-12T19:35:02",
   "registros": [
     {
       "id": 1,
@@ -4980,6 +4980,21 @@
       "valor": 400.0,
       "observacao": "",
       "criado_em": "2026-11-12T19:32:38",
+      "origem": "APP"
+    },
+    {
+      "id": 333,
+      "placa": "EPP2I45",
+      "data": "2026-09-29",
+      "nf_recibo": "1193",
+      "cnpj_fornecedor": "17.311.712/0001-24",
+      "nome_fornecedor": "DAHORA PNEUS",
+      "tipo_manutencao": "Elétrica",
+      "produto_servico": "BATERIA",
+      "quantidade": null,
+      "valor": 779.0,
+      "observacao": "",
+      "criado_em": "2026-11-12T19:35:02",
       "origem": "APP"
     }
   ]

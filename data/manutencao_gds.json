@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-12T19:31:46",
+  "atualizado_em": "2026-11-12T19:32:38",
   "registros": [
     {
       "id": 1,
@@ -4965,6 +4965,21 @@
       "valor": 1380.0,
       "observacao": "",
       "criado_em": "2026-11-12T19:31:46",
+      "origem": "APP"
+    },
+    {
+      "id": 332,
+      "placa": "EQJ5C41",
+      "data": "2026-09-29",
+      "nf_recibo": "1192",
+      "cnpj_fornecedor": "17.311.712/0001-24",
+      "nome_fornecedor": "DAHORA PNEUS",
+      "tipo_manutencao": "Pneus",
+      "produto_servico": "PNEU",
+      "quantidade": null,
+      "valor": 400.0,
+      "observacao": "",
+      "criado_em": "2026-11-12T19:32:38",
       "origem": "APP"
     }
   ]

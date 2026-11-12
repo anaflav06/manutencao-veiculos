@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-12T19:56:16",
+  "atualizado_em": "2026-11-12T19:58:13",
   "registros": [
     {
       "id": 1,
@@ -5070,21 +5070,6 @@
       "valor": 180.0,
       "observacao": "",
       "criado_em": "2026-11-12T19:55:06",
-      "origem": "APP"
-    },
-    {
-      "id": 339,
-      "placa": "GDS2013",
-      "data": "2026-10-21",
-      "nf_recibo": "1197",
-      "cnpj_fornecedor": "43.158.302/0006-00",
-      "nome_fornecedor": "MERCADO CAR",
-      "tipo_manutencao": "Outros",
-      "produto_servico": "AMORTECEDOR",
-      "quantidade": null,
-      "valor": 331.24,
-      "observacao": "",
-      "criado_em": "2026-11-12T19:56:16",
       "origem": "APP"
     }
   ]

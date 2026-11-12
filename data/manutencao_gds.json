@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-12T19:11:01",
+  "atualizado_em": "2026-11-12T19:19:24",
   "registros": [
     {
       "id": 1,
@@ -4905,6 +4905,21 @@
       "valor": 198.0,
       "observacao": "",
       "criado_em": "2026-11-03T20:34:06",
+      "origem": "APP"
+    },
+    {
+      "id": 328,
+      "placa": "FZZ8B91",
+      "data": "2026-10-15",
+      "nf_recibo": "971345",
+      "cnpj_fornecedor": "01.900.227/0001-71",
+      "nome_fornecedor": "DIBRACAM COMERCIAL LTDA",
+      "tipo_manutencao": "Funilaria",
+      "produto_servico": "BUCHA, COXIM",
+      "quantidade": null,
+      "valor": 168.0,
+      "observacao": "",
+      "criado_em": "2026-11-12T19:19:24",
       "origem": "APP"
     }
   ]

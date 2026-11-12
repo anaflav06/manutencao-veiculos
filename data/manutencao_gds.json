@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-12T19:50:13",
+  "atualizado_em": "2026-11-12T19:55:06",
   "registros": [
     {
       "id": 1,
@@ -5055,6 +5055,21 @@
       "valor": 660.0,
       "observacao": "",
       "criado_em": "2026-11-12T19:50:13",
+      "origem": "APP"
+    },
+    {
+      "id": 338,
+      "placa": "GDS2013",
+      "data": "2026-10-21",
+      "nf_recibo": "1196",
+      "cnpj_fornecedor": "51.195.790/0001-49",
+      "nome_fornecedor": "PERIM",
+      "tipo_manutencao": "Outros",
+      "produto_servico": "BIETELA ESTAS TRAS",
+      "quantidade": null,
+      "valor": 180.0,
+      "observacao": "",
+      "criado_em": "2026-11-12T19:55:06",
       "origem": "APP"
     }
   ]

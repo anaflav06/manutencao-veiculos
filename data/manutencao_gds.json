@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-12T19:19:24",
+  "atualizado_em": "2026-11-12T19:23:05",
   "registros": [
     {
       "id": 1,
@@ -4920,6 +4920,21 @@
       "valor": 168.0,
       "observacao": "",
       "criado_em": "2026-11-12T19:19:24",
+      "origem": "APP"
+    },
+    {
+      "id": 329,
+      "placa": "GDS0105",
+      "data": "2026-10-06",
+      "nf_recibo": "536575",
+      "cnpj_fornecedor": "14.948.647/0001-54",
+      "nome_fornecedor": "IVEPARTS COMERCIO DE PECAS LTDA",
+      "tipo_manutencao": "Preventiva",
+      "produto_servico": "AMORTECEDOR TRAS, OLEO FREIO DOT, REBITE LONA FREIO",
+      "quantidade": null,
+      "valor": 1016.5,
+      "observacao": "",
+      "criado_em": "2026-11-12T19:23:05",
       "origem": "APP"
     }
   ]

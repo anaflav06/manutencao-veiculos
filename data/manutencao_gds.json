@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-12T19:41:24",
+  "atualizado_em": "2026-11-12T19:41:28",
   "registros": [
     {
       "id": 1,
@@ -5001,7 +5001,7 @@
       "id": 334,
       "placa": "EPP2I45",
       "data": "2026-09-29",
-      "nf_recibo": "1193",
+      "nf_recibo": "1192",
       "cnpj_fornecedor": "17.311.712/0001-24",
       "nome_fornecedor": "DAHORA PNEUS",
       "tipo_manutencao": "Revisão",

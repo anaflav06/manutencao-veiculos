@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-12T19:45:14",
+  "atualizado_em": "2026-11-12T19:48:30",
   "registros": [
     {
       "id": 1,
@@ -5025,6 +5025,21 @@
       "valor": 400.0,
       "observacao": "",
       "criado_em": "2026-11-12T19:45:14",
+      "origem": "APP"
+    },
+    {
+      "id": 336,
+      "placa": "EQT3D56",
+      "data": "2026-10-02",
+      "nf_recibo": "1194",
+      "cnpj_fornecedor": "N/C",
+      "nome_fornecedor": "POSTO DE MOLAS VILA CARIOCA",
+      "tipo_manutencao": "Outros",
+      "produto_servico": "TRM",
+      "quantidade": null,
+      "valor": 10.0,
+      "observacao": "",
+      "criado_em": "2026-11-12T19:48:30",
       "origem": "APP"
     }
   ]

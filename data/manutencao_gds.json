@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-13T15:18:13",
+  "atualizado_em": "2026-11-13T15:18:37",
   "registros": [
     {
       "id": 1,
@@ -5115,21 +5115,6 @@
       "valor": 1234.0,
       "observacao": "",
       "criado_em": "2026-11-13T15:17:33",
-      "origem": "APP"
-    },
-    {
-      "id": 342,
-      "placa": "CFI2B71",
-      "data": "2026-11-13",
-      "nf_recibo": "1234",
-      "cnpj_fornecedor": "1234",
-      "nome_fornecedor": "JULIA",
-      "tipo_manutencao": "Pneus",
-      "produto_servico": "pneu, óleo, pintura",
-      "quantidade": null,
-      "valor": 1234.0,
-      "observacao": "",
-      "criado_em": "2026-11-13T15:18:13",
       "origem": "APP"
     }
   ]

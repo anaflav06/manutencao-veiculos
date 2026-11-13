@@ -129,6 +129,28 @@ def parse_valor(v):
     try: return float(t)
     except: return 0.0
 
+def chave_nf(v):
+    """Compara NF/recibo ignorando espaços e pontuação."""
+    return re.sub(r"[^A-Z0-9]", "", str(v or "").strip().upper())
+
+
+def encontra_duplicidade(registros, placa, nf, valor, ignorar_id=None):
+    """Mesma placa + NF não vazia + valor (centavos)."""
+    numero = chave_nf(nf)
+    if not numero:
+        return None  # Não bloquear registros sem número de NF/recibo.
+    placa_normalizada = normaliza_placa(placa)
+    valor_centavos = round(parse_valor(valor) * 100)
+    for registro in registros:
+        if ignorar_id is not None and str(registro.get("id")) == str(ignorar_id):
+            continue
+        if (normaliza_placa(registro.get("placa")) == placa_normalizada
+                and chave_nf(registro.get("nf_recibo")) == numero
+                and round(parse_valor(registro.get("valor")) * 100) == valor_centavos):
+            return registro
+    return None
+
+
 def tipo_automatico(texto):
     t = str(texto or "").lower()
     regras = [
@@ -574,6 +596,15 @@ elif menu=="➕ Nova manutenção":
             for e in erros: st.error(e)
         else:
             regs=load_records()
+            duplicado = encontra_duplicidade(regs, placa, nf, valor)
+            if duplicado:
+                st.error(
+                    f"🚫 Lançamento duplicado! Já existe manutenção para a placa {placa}, "
+                    f"NF/recibo {nf.strip()} e valor {dinheiro(valor)} "
+                    f"(registro ID {duplicado.get('id', 'não informado')}). "
+                    "Nenhum novo lançamento foi salvo."
+                )
+                st.stop()
             regs.append({
                 "id":next_id(regs),"placa":placa,"data":dt.isoformat(),"nf_recibo":nf.strip(),
                 "cnpj_fornecedor":normaliza_cnpj(cnpj),"nome_fornecedor":fornecedor.strip().upper(),
@@ -628,6 +659,15 @@ elif menu=="✏️ Editar lançamento":
 
     if salvar:
         regs=load_records()
+        duplicado = encontra_duplicidade(regs, placa, nf, valor, ignorar_id=rid)
+        if duplicado:
+            st.error(
+                f"🚫 Alteração bloqueada: já existe outro lançamento para a placa "
+                f"{normaliza_placa(placa)}, NF/recibo {nf.strip()} e valor "
+                f"{dinheiro(parse_valor(valor))} "
+                f"(registro ID {duplicado.get('id', 'não informado')})."
+            )
+            st.stop()
         for item in regs:
             if int(item.get("id",0))==rid:
                 item.update({

@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-13T15:18:47",
+  "atualizado_em": "2026-11-13T18:14:41",
   "registros": [
     {
       "id": 1,
@@ -5100,6 +5100,21 @@
       "valor": 400.0,
       "observacao": "",
       "criado_em": "2026-11-12T20:18:32",
+      "origem": "APP"
+    },
+    {
+      "id": 341,
+      "placa": "GDS0H41",
+      "data": "2026-11-13",
+      "nf_recibo": "11134",
+      "cnpj_fornecedor": "35.654.688/0025-85",
+      "nome_fornecedor": "AUTOMOB PARTICIPAÇÕES S.A",
+      "tipo_manutencao": "Preventiva",
+      "produto_servico": "OLEO, BUJAO, FILTRO LUBRIF, OLEO DIESEL, FILTRO DE AR, ELEM FILTR SEPARADOR, CORREIA, CORREIA 4 PK, FILTR ARLA, SILICONE CINZA, RETENTOR  DIANTERIRO, CONTRAPINO GRANDE, GRAXA, RETENTOR TRASEIRO TRACAO, TRAVA, RETENTOR MAN 3 EIXO E CHAPA",
+      "quantidade": null,
+      "valor": 6717.15,
+      "observacao": "",
+      "criado_em": "2026-11-13T18:14:41",
       "origem": "APP"
     }
   ]

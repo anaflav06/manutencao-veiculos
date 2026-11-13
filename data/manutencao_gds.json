@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-13T18:14:41",
+  "atualizado_em": "2026-11-13T18:18:12",
   "registros": [
     {
       "id": 1,
@@ -5115,6 +5115,21 @@
       "valor": 6717.15,
       "observacao": "",
       "criado_em": "2026-11-13T18:14:41",
+      "origem": "APP"
+    },
+    {
+      "id": 342,
+      "placa": "GDS0H41",
+      "data": "2026-11-12",
+      "nf_recibo": "2577",
+      "cnpj_fornecedor": "35.654.688/0025-85",
+      "nome_fornecedor": "AUTOMOB PARTICIPAÇÕES S.A",
+      "tipo_manutencao": "Preventiva",
+      "produto_servico": "CORREIA DE COMPRESSO, FILTRO DE AR, INJETOR DE ARLA, RESERVATORI DE ARLA, EURO E CHASSI",
+      "quantidade": null,
+      "valor": 4872.0,
+      "observacao": "",
+      "criado_em": "2026-11-13T18:18:12",
       "origem": "APP"
     }
   ]

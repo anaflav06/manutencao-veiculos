@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-13T18:19:09",
+  "atualizado_em": "2026-11-19T18:06:32",
   "registros": [
     {
       "id": 1,
@@ -5130,6 +5130,21 @@
       "valor": 4872.0,
       "observacao": "",
       "criado_em": "2026-11-13T18:18:12",
+      "origem": "APP"
+    },
+    {
+      "id": 343,
+      "placa": "GDS0H41",
+      "data": "2026-11-11",
+      "nf_recibo": "11134",
+      "cnpj_fornecedor": "35.654.688/0025-85",
+      "nome_fornecedor": "AUTOMOB PARTICIPAÇÕES S.A",
+      "tipo_manutencao": "Revisão",
+      "produto_servico": "GRAXA, RETENTOR, TRAVA, CHAPA, REVISAO, CORREIA, FILTRO, RESERVATORIO DE ARLA, OELO MOTOR, BUJAO, FILTRO LUBRIF, FILTRO DIESEL, FILTRO DE AR, ELEM FILTR, CORREIA 4PK, FILTRO ARLA, FILTRO PESCADOR, SILICONE, RETENTOR DIANTEIRO RO E CONTRAPINO",
+      "quantidade": null,
+      "valor": 11589.15,
+      "observacao": "",
+      "criado_em": "2026-11-19T18:06:32",
       "origem": "APP"
     }
   ]

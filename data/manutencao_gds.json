@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-24T18:51:39",
+  "atualizado_em": "2026-11-24T18:57:28",
   "registros": [
     {
       "id": 1,
@@ -5130,6 +5130,21 @@
       "valor": 4250.0,
       "observacao": "",
       "criado_em": "2026-11-24T18:51:39",
+      "origem": "APP"
+    },
+    {
+      "id": 345,
+      "placa": "DWP7A21",
+      "data": "2026-11-17",
+      "nf_recibo": "104",
+      "cnpj_fornecedor": "08.636.121/0001-36",
+      "nome_fornecedor": "GAVIÃO REI",
+      "tipo_manutencao": "Outros",
+      "produto_servico": "BANCO DIANTEIRO",
+      "quantidade": null,
+      "valor": 1000.0,
+      "observacao": "",
+      "criado_em": "2026-11-24T18:57:28",
       "origem": "APP"
     }
   ]

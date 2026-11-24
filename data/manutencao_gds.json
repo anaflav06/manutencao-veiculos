@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizado_em": "2026-11-19T20:04:43",
+  "atualizado_em": "2026-11-24T18:51:39",
   "registros": [
     {
       "id": 1,
@@ -5115,6 +5115,21 @@
       "valor": 11589.15,
       "observacao": "",
       "criado_em": "2026-11-19T18:06:32",
+      "origem": "APP"
+    },
+    {
+      "id": 344,
+      "placa": "GDS0105",
+      "data": "2026-11-12",
+      "nf_recibo": "3",
+      "cnpj_fornecedor": "45.085.668/0001-17",
+      "nome_fornecedor": "ML EURO PERFORMANCE LTDA",
+      "tipo_manutencao": "Corretiva",
+      "produto_servico": "TROCA DE SENSORES",
+      "quantidade": null,
+      "valor": 4250.0,
+      "observacao": "",
+      "criado_em": "2026-11-24T18:51:39",
       "origem": "APP"
     }
   ]
